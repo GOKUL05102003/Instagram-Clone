@@ -1,0 +1,122 @@
+{
+  "profile": {
+    "id": "user_0",
+    "username": "wheelzie_",
+    "fullName": "Gokul",
+    "avatar": "src/assets/profile1.webp",
+    "bio": "Full-stack developer & coffee enthusiast ☕",
+    "followersCount": 482,
+    "followingCount": 315,
+    "postsCount": 12
+  },
+  "stories": [
+    {
+      "id": "1",
+      "userId": "user_1",
+      "username": "wheelzie_",
+      "userAvatar": "src/assets/profile1.webp",
+      "media":"src/assets/s1.jpg",
+      "isStory":true
+    },
+    {
+      "id": "2",
+      "userId": "user_2",
+      "username": "_black_heart_._",
+      "userAvatar": "src/assets/profile2.png",
+      "media":"src/assets/s2.jpg",
+      "isStory":true
+    },
+    {
+      "id": "3",
+      "userId": "user_3",
+      "username": "_wheelzie",
+      "userAvatar": "src/assets/profile3.jpg",
+      "media":"src/assets/s3.jpg",
+      "isStory":false
+    }
+  ],
+  "posts": [
+    {
+      "id": "post_101",
+      "user": {
+        "id": "user_1",
+        "username": "wheelzie_",
+        "avatar": "src/assets/profile1.webp"
+      },
+      "mediaUrl": "src/assets/LEH1.JPG",
+      "caption": "First one to reach ladakh from entire bloodline",
+      "likesCount": 1243,
+      "timestamp": "2026-08-27T10:30:00Z",
+      "comments": [
+        {
+          "id": "comment_1",
+          "username": "urban_lens",
+          "userAvatar": "src/assets/Instagram_icon.png.webp",
+          "text": "Stunning composition!",
+          "timestamp": "2026-08-27T11:00:00Z",
+          "likesCount": 4
+        },
+        {
+          "id": "comment_2",
+          "username": "alex_dev",
+          "userAvatar": "src/assets/Instagram_icon.png.webp",
+          "text": "Need to visit here soon 🔥",
+          "timestamp": "2026-08-27T11:15:00Z",
+          "likesCount": 1
+        }
+      ]
+    },
+    {
+      "id": "post_102",
+      "user": {
+        "id": "user_2",
+        "username": "_black_heart_._",
+        "avatar": "src/assets/profile2.png"
+      },
+      "mediaUrl": "src/assets/LEH2.JPG",
+      "caption": "Found myself in the mountains 🏔️❄️",
+      "likesCount": 856,
+      "timestamp": "2026-08-27T08:15:00Z",
+      "comments": [
+        {
+          "id": "comment_3",
+          "username": "foodie_vibes",
+          "userAvatar": "src/assets/Instagram_icon.png.webp",
+          "text": "The colors are unreal!",
+          "timestamp": "2026-08-27T08:45:00Z",
+          "likesCount": 2
+        }
+      ]
+    },
+    {
+      "id": "post_103",
+      "user": {
+        "id": "user_3",
+        "username": "wheelzie_",
+        "avatar": "src/assets/profile1.webp"
+      },
+      "mediaUrl": "src/assets/LEH3.JPG",
+      "caption": "Ladakh bucket list completed ✅😮‍💨 #ladakh #leh #k2k #villupuram #roadtrip❤️",
+      "likesCount": 432,
+      "timestamp": "2026-08-26T18:00:00Z",
+      "comments": []
+    }
+  ],
+  "suggestion":[
+    {
+        "id": "user_1",
+        "username": "wheelzie_",
+        "avatar": "src/assets/profile1.webp"
+      },
+      {
+        "id": "user_2",
+        "username": "_black_heart_._",
+        "avatar": "src/assets/profile2.png"
+      },
+      {
+        "id": "user_3",
+        "username": "_wheelzie",
+        "avatar": "src/assets/profile3.jpg"
+      }
+  ]
+}

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainContainer{
+    display: flex;
+    height: 100vh;
+}
+.feed{
+    width: 55%;
+}
+.sidebar{
+    width: 15%;
+}
+.suggestion{
+    width: 30vw;
+}
+.textLogo{
+    width: 200px;
+}
+.side1,.side2{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    gap: 25px;
+    margin-left: 10px;
+}
+.side2{
+    position: fixed;
+    bottom: 20px;
+}
+.bi{
+    margin-right: 10px;
+}
+.stories{
+    height: 150px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.avatar{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    margin:10px 0px ;
+}
+.profile h5{
+    margin-left: 10px;
+}
+.bold{
+    font-weight: bold;
+}
+.profile p{
+    margin-left: 10px;
+    color: blue;
+}
+.postImg{
+    height: 400px;
+}
+.mainPost{
+    justify-items: center;
+}
+.seeAll{
+    display: flex;
+}
+.seeAll b{
+    margin-left: 20px;
+}
+.seeAll p,b{
+    margin: 10px;
+}
+.mainStory{
+    display: flex;
+}
+.storyAvatar{
+    width: 80px;
+    border-radius: 50%;
+    margin:0px 15px;
+}
+.hasStory{
+    width: 77px;
+    border: red 3px solid;
+    border-radius: 50%;
+    margin:0px 15px;
+}
+.singleStory{
+    justify-items: center;
+}
