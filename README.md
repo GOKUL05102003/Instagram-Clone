@@ -1,16 +1,29 @@
-# React + Vite
+# Instagram Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend social media web application replicating core Instagram functionalities, featuring dynamic user feeds and post interactions driven by a simulated backend. 
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Dynamic User Feeds:** Seamlessly renders user posts, profiles, and media in a responsive, mobile-first layout mimicking the native app experience.
+* **Post Interactions:** Built-in functional support for engaging with content, including liking and interacting with posts.
+* **Simulated REST API:** Utilizes a lightweight mock backend to serve application data, allowing for fast UI iteration and state management testing.
 
-## React Compiler
+## 🛠️ Tools & Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend Framework:** React.js
+* **Styling:** CSS3 / HTML5
+* **Backend / Database Simulation:** JSON Server
+* **State Management:** React Hooks (useState, useEffect)
+* **Version Control:** Git & GitHub
 
-## Expanding the ESLint configuration
+## ⚙️ Local Setup & Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ **Clone the repository:**
+   ```bash
+   git clone [https://github.com/GOKUL05102003/Instagram-Clone.git](https://github.com/GOKUL05102003/Instagram-Clone.git)
+   cd Instagram-Clone
+   npm install
+   npx json-server --watch db.json --port 5000
+   npm start
+
+   Open http://localhost:3000 to view it in your browser.
